@@ -30,6 +30,14 @@ class ViewController: UIViewController,UIPickerViewDelegate {
     
     
     
+    
+    
+    
+    //コメント追加したよ
+    
+    
+    
+    
 
     
     //日付入力
