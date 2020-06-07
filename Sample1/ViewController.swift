@@ -20,7 +20,7 @@ class ViewController: UIViewController,UIPickerViewDelegate {
         init(date: String, datanum: Int) {
             self.date = date
             self.datanum = datanum
-        
+                    
         }
         
     }
