@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E096485248E221600D9F6E9 /* Inputsform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E096484248E221600D9F6E9 /* Inputsform.swift */; };
 		1E34C987247B74E30002EE50 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E34C986247B74E30002EE50 /* FirstViewController.swift */; };
 		1E46D56E247AD84500935C6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E46D56D247AD84500935C6C /* AppDelegate.swift */; };
 		1E46D570247AD84500935C6C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E46D56F247AD84500935C6C /* SceneDelegate.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E096484248E221600D9F6E9 /* Inputsform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inputsform.swift; sourceTree = "<group>"; };
 		1E34C986247B74E30002EE50 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		1E46D56A247AD84500935C6C /* Sample1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E46D56D247AD84500935C6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				1E46D56D247AD84500935C6C /* AppDelegate.swift */,
 				1E46D56F247AD84500935C6C /* SceneDelegate.swift */,
 				1E46D571247AD84500935C6C /* ViewController.swift */,
+				1E096484248E221600D9F6E9 /* Inputsform.swift */,
 				1E46D573247AD84500935C6C /* Main.storyboard */,
 				1E46D59D247ADE8E00935C6C /* addBackground.swift */,
 				1E46D59F247ADEEE00935C6C /* backgroundimage.jpg */,
@@ -269,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E096485248E221600D9F6E9 /* Inputsform.swift in Sources */,
 				1E34C987247B74E30002EE50 /* FirstViewController.swift in Sources */,
 				1E46D572247AD84500935C6C /* ViewController.swift in Sources */,
 				1E46D56E247AD84500935C6C /* AppDelegate.swift in Sources */,
