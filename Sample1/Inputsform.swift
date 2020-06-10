@@ -6,6 +6,8 @@
 //  Copyright © 2020 miura. All rights reserved.
 //
 
+
+
 import UIKit
 
 class Inputsform: UIViewController {
@@ -25,6 +27,10 @@ class Inputsform: UIViewController {
     }
     
     
+
+    @IBAction func backcalendar(_ sender: Any) {
+        performSegue(withIdentifier: "tocalendar",sender: nil)
+    }
     
     
     override func viewDidLoad() {
@@ -32,6 +38,7 @@ class Inputsform: UIViewController {
         
         //背景設定
           self.view.addBackground(name: "backgroundimage.jpg")
+        
         
         
         //キーボード変更(数字のみ)
@@ -43,15 +50,19 @@ class Inputsform: UIViewController {
     
     
     
-    /*
-    // MARK: - Navigation
+    
+    // MARK//: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
+   
+    //別ページに値を渡す
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        
+        if (segue.identifier == "tocalendar"){
+            //渡す値を記載...
+        }
+        
     }
-    */
+    
     
     //キーボードを閉じる
     override func didReceiveMemoryWarning() {

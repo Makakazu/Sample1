@@ -12,7 +12,7 @@
             <objects>
                 <viewController id="nwZ-Ut-BGf" customClass="FirstViewController" customModule="Sample1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="A1P-Sd-2O8">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="小遣い帳" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aqn-st-2VZ">
@@ -63,6 +63,15 @@
                                     <action selector="Seikathuhi:" destination="i2l-uy-Hh3" eventType="touchUpInside" id="SrK-3b-FQN"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ak-rv-Gd1">
+                                <rect key="frame" x="140" y="514" width="96" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="backcalendar:" destination="i2l-uy-Hh3" eventType="touchUpInside" id="Hxa-NJ-kJF"/>
+                                    <segue destination="nwZ-Ut-BGf" kind="presentation" identifier="tocalendar" id="jf1-h6-361"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="ddt-mb-X1W"/>
@@ -74,7 +83,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DFu-Uq-r7P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="140" y="116"/>
+            <point key="canvasLocation" x="140" y="115.59220389805098"/>
         </scene>
     </scenes>
 </document>
