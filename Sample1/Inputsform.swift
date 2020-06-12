@@ -58,7 +58,11 @@ class Inputsform: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         if (segue.identifier == "tocalendar"){
-            //渡す値を記載...
+            let seikath_cost: FirstViewController = (segue.destination as? FirstViewController)!
+            //let other_cost_input: FirstViewController = (segue.destination as? FirstViewController)!
+            
+            seikath_cost.uke_seikatuhi = seikatu
+            //other_cost_input.uke_other_cost =
         }
         
     }

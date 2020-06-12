@@ -32,14 +32,23 @@
                                     <segue destination="i2l-uy-Hh3" kind="show" id="Z8t-kK-qnZ"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wC7-45-I6z">
+                                <rect key="frame" x="76" y="153" width="180" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="h3j-3q-xH4"/>
                     </view>
+                    <connections>
+                        <outlet property="test" destination="wC7-45-I6z" id="UOm-ez-awF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lP2-3Y-lIe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-633.33333333333337" y="115.84821428571428"/>
+            <point key="canvasLocation" x="-634.39999999999998" y="115.59220389805098"/>
         </scene>
         <!--Inputsform-->
         <scene sceneID="q80-pV-GLe">
