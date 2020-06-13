@@ -12,7 +12,7 @@ import UIKit
 
 class Inputsform: UIViewController {
 
-    var seikatu = 0
+    var kotei = 0
     
     
 
@@ -22,7 +22,7 @@ class Inputsform: UIViewController {
 
 
     @IBAction func Seikathuhi(_ sender: Any) {
-        seikatu = Int(Inputdata.text!)!
+        kotei = Int(Inputdata.text!)!
         Inputdata.text = ""
     }
     
@@ -61,7 +61,7 @@ class Inputsform: UIViewController {
             let seikath_cost: FirstViewController = (segue.destination as? FirstViewController)!
             //let other_cost_input: FirstViewController = (segue.destination as? FirstViewController)!
             
-            seikath_cost.uke_seikatuhi = seikatu
+            seikath_cost.uke_koteihi = kotei
             //other_cost_input.uke_other_cost =
         }
         
